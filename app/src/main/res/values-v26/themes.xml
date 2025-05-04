@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="TodoSubtitle">
+    <item name="textAllCaps">true</item>
+    <item name="android:textColor">@color/todo_background_title_text</item>
+    <item name="android:layout_marginHorizontal">32dp</item>
+    <item name="android:layout_marginBottom">16dp</item>
+  </style>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teal">#00BCD4</color>
+    <color name="violet">#9C27B0</color>
+
+    <color name="background_component">#FFE6E1CD</color>
+    <color name="background_component_app">#FFC6D8C0</color>
+    <color name="background_button">#FFD6B3B1</color>
+    <color name="background_component_selected">#FFF97992</color>
+    <color name="background_title_text">#FF231B42</color>
+
+    <color name="low">#FFFB00</color>
+    <color name="normal">#09FF00</color>
+    <color name="high">#FF5900</color>
+    <color name="obesity">#FF0000</color>
+
+    <color name="todo_background_component">#a5c8ca</color>
+    <color name="todo_background_component_app">#f6eddc</color>
+    <color name="todo_background_button">#bdd6d2</color>
+    <color name="todo_background_component_selected">#a5c8ca</color>
+    <color name="todo_background_title_text">#586875</color>
+
+    <color name="todo_business_category">#3b8183</color>
+    <color name="todo_personal_category">#f5634a</color>
+    <color name="todo_other_category">#fad089</color>
+</resources>

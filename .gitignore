@@ -1,0 +1,23 @@
+# Archivos de compilación
+/build/
+/app/build/
+
+# Configuración de Android Studio
+.idea/
+*.iml
+
+# Archivos generados por Gradle
+.gradle/
+local.properties
+*.log
+
+# Cache de lint
+*.cache
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Claves o configuraciones locales
+**/keystore.jks
+**/google-services.json

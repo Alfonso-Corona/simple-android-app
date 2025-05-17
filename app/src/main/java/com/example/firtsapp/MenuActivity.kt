@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.firtsapp.imccalculator.ImcCalculatorActivity
+import com.example.firtsapp.pokeapi.PokeApiActivity
 import com.example.firtsapp.todoapp.TodoActivity
 
 class MenuActivity : AppCompatActivity() {
@@ -17,9 +18,11 @@ class MenuActivity : AppCompatActivity() {
     val btnSaludApp = findViewById<Button>(R.id.btnSaludApp)
     val btnIMCApp = findViewById<Button>(R.id.btnIMCApp)
     val btnTODO = findViewById<Button>(R.id.btnTODO)
+    val btnPokemon = findViewById<Button>(R.id.btnPokemon)
     btnSaludApp.setOnClickListener{ navigateToSaludApp() }
     btnIMCApp.setOnClickListener{ navigateToIMCApp() }
     btnTODO.setOnClickListener{ navigateToTODOApp() }
+    btnPokemon.setOnClickListener { navigateToPokeApi() }
   }
 
   private fun navigateToSaludApp(){
@@ -34,6 +37,11 @@ class MenuActivity : AppCompatActivity() {
 
   private fun navigateToTODOApp(){
     val intent = Intent(this, TodoActivity::class.java)
+    startActivity(intent)
+  }
+
+  private fun navigateToPokeApi(){
+    val intent = Intent(this, PokeApiActivity::class.java)
     startActivity(intent)
   }
 }
